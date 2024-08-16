@@ -1,0 +1,79 @@
+#A
+{
+padding-top: 100px;
+}
+
+#B
+{
+padding-top: 100px;
+}
+header{
+    font-size: 30px;
+}
+
+.nav-link
+{
+    color: aliceblue;
+}
+
+.pilihan 
+{
+    padding: 10px;
+}
+
+.background
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url("SourceImages/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 950px;
+    color: white;
+    position: relative;
+}
+
+.textbackground
+{
+    margin: 50px;
+    padding: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* Warna putih untuk garis icon */
+}
+
+.background2
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #697565;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 850px;
+    color: white;
+    position: relative;
+}
+
+.background3
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url("SourceImages/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 850px;
+    color: white;
+    position: relative;
+}
+
+.white{
+    color: aliceblue;
+}
