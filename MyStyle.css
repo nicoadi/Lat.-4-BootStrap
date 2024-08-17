@@ -41,8 +41,17 @@ body{
 
 .textbackground
 {
-    margin: 50px;
+    margin: 150px;
     padding: 20px;
+    h1{
+        font-size: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
 }
 
 .navbar-toggler-icon {
@@ -54,7 +63,7 @@ body{
 {
     display: flex;
     flex-direction: column;
-    background-color: #697565;
+    background-image: url("SourceImages/bg2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment:scroll;
@@ -78,11 +87,25 @@ body{
     position: relative;
 }
 
+.background4
+{
+    display: flex;
+    flex-direction: column;
+background-color: rgb(119, 60, 146);
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 860px;
+    color: white;
+    position: relative;
+}
+
 .white{
     color: aliceblue;
 }
 
-.navbar-nav .nav-link.active 
+.nav-link.active 
 {
     color: rgb(247, 0, 255);
     font-weight: bold;
