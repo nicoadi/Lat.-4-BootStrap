@@ -9,9 +9,8 @@
 
 </head>
 
-<body>
-    <!-- Bagian Header -->
-    <header>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+        <header>
         <nav class="navbar navbar-expand-lg bg-dark bg-gradient fixed-top">
             <a class="navbar-brand pilihan" href="#">
                 <img class="header-logo" src="SourceImages/VIKING.png" height="100px" width="100px"/>
@@ -21,10 +20,10 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav pilihan">
-                    <a class="nav-link active" href="#A" >Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#B">Services</a>
-                    <a class="nav-link" href="#C">About</a>
-                    <a class="nav-link" href="#D">Contact</a>
+                    <a class="nav-link active" href="#A">Home</a>
+                    <a class="nav-link active" href="#B">Services</a>
+                    <a class="nav-link active" href="#C">About</a>
+                    <a class="nav-link active" href="#D">Contact</a>
                 </div>
             </div>
         </nav>
@@ -40,7 +39,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore deserunt incidunt officiis consequatur fuga tenetur repellendus vero eius voluptate!
                 </p>
                 <br><br>
-                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="testFunction()">Large button</button>
             </div>
         </div>
     </section>
@@ -122,8 +121,7 @@
                   <div class="col" >
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label style="justify-content:left ; display: flex;" class="form-check-label" for="exampleCheck1">I'm Not A robot</label>
@@ -133,19 +131,19 @@
                   <div class="col">
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
                       </div>                
                   </div>
                   <div>
                     <H4>
-                        Lorem, ipsum dolor.
+                        Lorem, ipsum dolor. 
                     </H4>
                   </div>
                   <div>
-                    <textarea rows="8" cols="100"></textarea>
+                    <textarea rows="8" cols="100" placeholder="Enter your complaiments"></textarea>
                 </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" onclick="submitFunction()">Submit</button>
               </div>
         </div>
     </section>
@@ -163,6 +161,9 @@
             </div>
           </div>
     </footer>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="MyJavaScript.js"></script>
 
 </body>
 </html>

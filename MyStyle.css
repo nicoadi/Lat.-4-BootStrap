@@ -1,14 +1,18 @@
-#A
-{
-padding-top: 100px;
-}
 
-#B
-{
-padding-top: 100px;
-}
 header{
     font-size: 30px;
+}
+
+section:before {
+    content: "";
+    display: block;
+    height: 100px; /* Sesuaikan dengan tinggi navbar */
+    margin-top: -100px; /* Menarik elemen ke atas */
+    visibility: hidden; /* Pseudo-element ini tidak terlihat */
+}
+
+body{
+    padding-top: 80px;
 }
 
 .nav-link
@@ -30,7 +34,7 @@ header{
     background-position: center;
     background-attachment:scroll;
     margin: 0;
-    height: 950px;
+    height: 900px;
     color: white;
     position: relative;
 }
@@ -55,7 +59,7 @@ header{
     background-position: center;
     background-attachment:scroll;
     margin: 0;
-    height: 850px;
+    height: 860px;
     color: white;
     position: relative;
 }
@@ -69,11 +73,17 @@ header{
     background-position: center;
     background-attachment:scroll;
     margin: 0;
-    height: 850px;
+    height: 860px;
     color: white;
     position: relative;
 }
 
 .white{
     color: aliceblue;
+}
+
+.navbar-nav .nav-link.active 
+{
+    color: rgb(247, 0, 255);
+    font-weight: bold;
 }
